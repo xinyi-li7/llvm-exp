@@ -46,7 +46,7 @@ namespace {
 
 char printLineInfo::ID = 1; //LLVM uses ID’s address to identify a pass, so initialization value is not important.
 
-static RegisterPass<printLineInfo> T("printLineInfo", "Print the name of variable Pass",false, false);
+static RegisterPass<printLineInfo> T("printLineInfo", "Print the line information Pass",false, false);
 
 static RegisterStandardPasses S(
     PassManagerBuilder::EP_EarlyAsPossible,

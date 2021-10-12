@@ -13,3 +13,4 @@ include_directories(${LLVM_INCLUDE_DIRS})
 
 add_subdirectory(hellopass)
 add_subdirectory(printLineInfoPass)
+add_subdirectory(printDireNamePass)

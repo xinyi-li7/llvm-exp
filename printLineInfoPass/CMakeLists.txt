@@ -1,4 +1,4 @@
-add_library(PrintName MODULE 
+add_library(PrintLineInfo MODULE 
     printLineInfo.cpp
     )
 
